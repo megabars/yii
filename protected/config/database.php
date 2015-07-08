@@ -8,9 +8,10 @@ return array(
      
 	// uncomment the following lines to use a MySQL database
 	
-	'connectionString' => 'pgsql:host=localhost;port=5432;dbname=postgres',
+	'connectionString' => 'pgsql:host=localhost;port=5432;dbname=YiiCMS',
 	'username' => 'postgres',
 	'password' => '123',
 	'charset' => 'utf8',
+        'tablePrefix' => 'cms_',
 	
 );
